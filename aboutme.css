@@ -1,0 +1,244 @@
+/* color light: #2b3137
+   color dark : #24292e 
+   text: #fafbfc
+   shadow: box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
+
+   DONT FORGET TO USE VH/VW INSTEAD OF PX YOU DUMBFUCK */
+
+   
+body{
+    background-color: 	#24292e;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+#topbar{
+    position: absolute;
+    z-index: 2;
+    transform: translate(-5vw,-4vh);
+    background-color: #2b3137;
+    border: 2vh solid #2b3137;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
+    width: 200vw;
+    height: 7vh;
+}
+
+#topbar #aboutp{
+    transform: translateY(-2vh);
+    color: rgb(255, 203, 139);
+    font-size: 4vh;
+    padding-left: 48vw;
+}
+
+#topbar #aboutp:hover{
+    color: darkorange;
+    transition: color 0.2s ease;
+}
+
+#me{
+    position: absolute;
+    height: 64vh;
+    width: 50vw;
+    border: 2px solid #2b3137;    
+    border-radius: 1vh;
+    background-color: #2b3137;
+    margin-top: 50;
+    z-index: 1;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
+    margin: 10vh 25vw;
+}
+
+#me #namep{
+    color:#9cddff;
+    font-size: 2.5vh;
+    transform: translate(5vw,37vh);
+    word-wrap: break-word;
+}
+
+#me #pfp{
+    position: absolute;
+    overflow: hidden;
+    width: 27.5vh;
+    height: 27.5vh;
+    border-radius: 12px;
+    margin: 4vh 18vw;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
+    transition: opacity 0.5s ease-in-out;
+}
+
+#me #hidpfp{
+    position: absolute;
+    overflow: hidden;
+    width: 27.5vh;
+    height: 27.5vh;
+    border-radius: 12px;
+    margin: 4vh 18vw;
+    opacity: 0;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
+    transition: opacity 0.5s ease-in-out;
+}
+
+#me #pfp:hover{
+    opacity: 0;
+}
+
+#me #hidpfp:hover{
+    opacity: 1;
+}
+
+
+#me #mbti{
+    color:#9cddff;
+    font-size: 2.5vh;
+    transform: translate(5vw,37vh);
+    word-wrap: break-word;
+}
+
+#me #age{
+    color:#9cddff;
+    font-size: 2.5vh;
+    transform: translate(5vw,37vh);
+    word-wrap: break-word;
+}
+
+#me #gender{
+    color:#9cddff;
+    font-size: 2.5vh;
+    transform: translate(5vw,37vh);
+    word-wrap: break-word;
+}
+
+
+
+#hobbyp{
+    color:#fafbfc;
+    font-size: 4vh;
+    transform: translate(3vw,0vh);
+    word-wrap: break-word;
+}
+
+.hobp{
+    color:#9cddff;
+    font-size: 2.5vh;
+    transform: translate(13.5vw,0vh);
+    word-wrap: break-word;
+}
+
+#hobby{
+    position: absolute;
+    height: 36vh;
+    width: 50vw;
+    border: 2px solid #2b3137;    
+    border-radius: 1vh;
+    background-color: #2b3137;
+    z-index: 0;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
+    margin: 81vh 25vw;
+}
+
+#fandom{
+    position: absolute;
+    height: 35vh;
+    width: 50vw;
+    border: 2px solid #2b3137;    
+    border-radius: 1vh;
+    background-color: #2b3137;
+    z-index: 0;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
+    margin: 122vh 25vw;
+}
+
+#fandomp{
+    color:#fafbfc;
+    font-size: 4vh;
+    transform: translate(3vw,0vh);
+    word-wrap: break-word;
+}
+
+.fanp{
+    color:#9cddff;
+    font-size: 2.5vh;
+    transform: translate(13.5vw,0vh);
+    word-wrap: break-word;
+}
+
+.fanddlc{
+    color:#9cddff;
+    font-size: 2.5vh;
+    transform: translate(13.5vw,0vh);
+    word-wrap: break-word;
+}
+
+#link{
+    width: 15vw;
+    color: rgb(41, 41, 41);
+    font-size: 2vh;
+    position: absolute;
+    border: 2px #2b3137 solid;
+    background-color: #9b9b9b;
+    border-radius: 20px;
+    margin-top: 210vh;
+    margin-left: 43vw;
+}
+
+#link #linkp{
+    padding-left: 1vw;
+}
+
+#contactp{
+    color:#9cddff;
+    font-size: 4vh;
+    transform: translate(3vw,0vh);
+    word-wrap: break-word;
+}
+
+.conp{
+    color:#9cddff;
+    font-size: 2.5vh;
+    transform: translate(13.5vw,0vh);
+    word-wrap: break-word;
+}
+
+#contact{
+    position: absolute;
+    height: 36vh;
+    width: 50vw;
+    border: 2px solid #2b3137;    
+    border-radius: 1vh;
+    background-color: #2b3137;
+    z-index: 0;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
+    margin: 165vh 25vw;
+}
+
+.topic{
+    color: #cf834b;
+}
+
+.green{
+    color: #b4cea9;
+}
+
+#justmakingmoreheight{
+    height:230vh;
+}
+
+
+@media screen and (max-width:600px){
+    #topbar #aboutp{
+        transform: translateY(-2vh);
+        font-size: 4vh;
+        padding-left: 30vw;
+    }
+
+    #me{
+        width: 70vw;
+        margin-left: 15vw;
+    }
+    
+    .fanddlc{
+        font-size: 2vh;
+    }
+    
+}
+
