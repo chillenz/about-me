@@ -58,8 +58,8 @@ body{
 #me #pfp{
     position: absolute;
     overflow: hidden;
-    width: 27.5vh;
-    height: 27.5vh;
+    width: 30vh;
+    height: 30vh;
     border-radius: 12px;
     margin: 4vh 18vw;
     box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
@@ -69,8 +69,8 @@ body{
 #me #hidpfp{
     position: absolute;
     overflow: hidden;
-    width: 27.5vh;
-    height: 27.5vh;
+    width: 30vh;
+    height: 30vh;
     border-radius: 12px;
     margin: 4vh 18vw;
     opacity: 0;
