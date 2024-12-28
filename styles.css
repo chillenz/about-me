@@ -227,6 +227,11 @@ body{
     height:230vh;
 }
 
+#link:hover{
+    background-color:#727272;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width:630px){
     #topbar #aboutp{
