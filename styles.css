@@ -73,7 +73,7 @@ body{
     width: 27.5vh;
     height: 27.5vh;
     border-radius: 12px;
-    margin: 4vh 18vw;
+    margin: 4vh 14vw;
     opacity: 0;
     box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
     transition: opacity 0.5s ease-in-out;
